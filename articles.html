@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Articles | Florian Sam Website</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Florian <br>Sam</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="experience.html">Expériences</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="livre.html">Livre</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <button class="contact-btn">Contact</button>
+            <button id="google-translate" class="language-btn">EN 🇬🇧</button>
+        </div>
+        <div class="burger">
+            ☰
+        </div>
+    </nav>
+
+    <!-- Menu Mobile -->
+    <div class="mobile-menu">
+        <button class="close-menu">✖</button> <!-- Bouton de fermeture ajouté -->
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="experience.html">Expériences</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="livre.html">Livre</a></li>
+        </ul>
+        <button class="contact-btn">Contact</button>
+        <button id="google-translate" class="language-btn">EN 🇬🇧</button>
+        <div class="logo"><strong>Florian<br>Sam</strong></div>
+    </div>
+
+    <!-- Modal Contact -->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Me contacter</h2>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/floriansamoyeau/" target="_blank"><img src="https://img.icons8.com/?size=70&id=Qfh1PDlzLB72&format=png&color=000000" alt="LinkedIn"></a>
+                <a href="https://medium.com/@floriansam" target="_blank"><img src="https://img.icons8.com/?size=70&id=mPWdHrPsWSjV&format=png&color=000000" alt="Medium"></a>
+                <a href="mailto:floriansam.interface@gmail.com" target="_blank"><img src="https://img.icons8.com/?size=70&id=Kdxoczl8qte4&format=png&color=000000" alt="Email"></a>
+            </div>
+        </div>
+    </div>
+
+     <!-- Section Articles -->
+     <section class="articles-section">
+        <h1>Mes Articles</h1>
+        <div class="articles-container">
+            <!-- Article 1 -->
+            <div class="card">
+                <img src="https://media.itsnicethat.com/original_images/COLLINS_MEDIUM_00.gif" alt="Article 1" />
+                <h2>Medium</h2>
+                <p>Retrouvez tous mes articles sur Medium, où je partage mes réflexions et explorations sur la technologie, l'impact environnemental et bien plus encore. Cliquez ci-dessous pour découvrir l'ensemble de mes publications.</p>
+                <a href="https://www.lien-article1.com" class="btn" target="_blank">Lire l'article</a>
+            </div>
+            
+            <!-- Article 2 -->
+            <div class="card">
+                <img src="https://www.meilleure-innovation.com/wp-content/uploads/2022/05/linkedin-logo-noir-blanc.png" alt="Article 2" />
+                <h2>Linkedin</h2>
+                <p>Connectez-vous avec moi sur LinkedIn pour suivre mes projets, partager des idées et échanger sur des sujets liés à la technologie, l'innovation et la responsabilité sociétale.</p>
+                <a href="https://www.lien-article2.com" class="btn" target="_blank">Lire l'article</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Florian Sam. All Rights Reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
